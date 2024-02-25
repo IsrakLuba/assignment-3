@@ -1,0 +1,127 @@
+.wrapper {
+    height: 1200px;
+    width: 100%;
+    background-color: gray;
+}
+
+.menu {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(75, 115, 247);
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+
+}
+
+.menu ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.menu ul li a{
+    color: white ;
+    background-color: rgb(8, 8, 8);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px;
+    padding: 5px;
+    transition: all 1s;
+    border-radius: 0px 0px 75px 75px;
+}
+
+.menu ul li a:hover{
+    color: blue;
+    border-radius: 75px 75px 0px 0px;
+}
+
+.content{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(202, 200, 202);
+}
+
+.content .one{
+    height: 400px;
+    width: 25%;
+    background-color: red;
+    float: left;
+    transition: all 2s;
+    transform: scale(1);
+    background-image: url(./1.jpg);
+    background-size: cover;
+}
+
+.content .one:hover{
+    transform: scale(1.5);
+
+
+}
+
+.content .two{
+    height: 400px;
+    width: 25%;
+    background-color: rgb(8, 7, 7);
+    float: left;
+    transform: skewY(0 deg);
+    transition: all 2s;  
+}
+
+.content .two:hover{
+    transform: skewY(30deg);
+}
+
+.content .three{
+    height: 400px;
+    width: 25%;
+    background-color: rgb(186, 142, 243);
+    float: left;
+    background-image: url(./3.jpg);
+    transform: rotate(0deg);
+    transition: all 2s;
+    background-size: cover;
+}
+
+.content .three:hover{
+    transform: rotate(90deg);
+}
+
+.content .four{
+    height: 400px;
+    width: 25%;
+    background-color: rgb(143, 241, 225);
+    float: left;
+    background-image: url(./4.jpg);
+    transform: scale(1);
+    transition: all 2s; 
+    background-size: cover;
+}
+
+.content .four:hover{
+    transform: scale(1.5);
+}
+
+/* .content .five{
+    height: 400px;
+    width: 25%;
+    background-color: rgb(143, 241, 225);
+    float: left;
+    background-image: url(./image/pic-4.jpg);
+    transform: scale(1);
+    transition: all 2s; 
+    background-size: cover;
+}
+
+.content .five:hover{
+    transform: scale(1.5);
+} */
+
+.imgResponsive{
+    height: 100%;
+    width: 100%;
+}
